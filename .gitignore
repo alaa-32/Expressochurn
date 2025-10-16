@@ -1,0 +1,19 @@
+# Ignore trained models and large files
+artifacts/
+*.joblib
+*.pkl
+*.csv
+*.xlsx
+*.zip
+*.rar
+
+# Ignore environment files
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Ignore OS and IDE configs
+.DS_Store
+.idea/
+.vscode/
